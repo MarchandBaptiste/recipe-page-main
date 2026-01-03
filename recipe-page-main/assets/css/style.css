@@ -132,3 +132,19 @@ hr {
     border: 0;
     border-top: 1px solid #e0e0e0;
 }
+
+@media screen and (min-width: 768px) {
+    /* CSS appliqué uniquement si l'écran fait plus de 768px */
+    body{
+        background-color: hsl(30, 18%, 87%);
+        padding: 10%;
+    }
+    main{
+        background-color: white;
+        border-radius: 20px;
+        padding: 2rem;
+    }
+    img{
+        border-radius: 20px;
+    }
+}
